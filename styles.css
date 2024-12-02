@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'retrowave';
+    src: url('Retrowave demo.ttf') format('truetype');
+  }
+  h1{
+    font-family: 'retrowave', serif;
+  }
+/* Global Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover, .dropbtn:hover {
+    background-color: #3d2100;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3d2100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: 3d2100;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #3d2100;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Hover Image */
+.hover-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+
+/* Navbar styles */
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly without gaps */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #694003;
+    height: 95px; /* Adjust based on your design */
+}
+
+/* Ensure navbar items fill available space */
+.navbar li {
+    flex-grow: 1; /* Make each list item grow evenly */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Anchor tag styles */
+.navbar a {
+    display: block;
+    height: 100%;
+}
+
+/* Nav images */
+.nav-icon {
+    height: 100%;
+    width: 100%; /* Ensure the image stretches horizontally */
+    object-fit: cover; /* Crop images that don't fit perfectly */
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5a3300;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(121, 79, 0, 0.2);
+    z-index: 1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown images */
+.dropdown-icon {
+    height: 50px; /* Adjust height for dropdown items */
+    width: auto;
+}
+
+/* Hover effect for images */
+.nav-icon:hover, .dropdown-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(116, 54, 3, 0.3);
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3d2100;
+    color: rgb(53, 1, 1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'retrowave' , 'serif';
+    text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+   
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 180px; /* Set a fixed height for the header */
+    overflow: hidden;
+  }
+  
+  .header-img {
+    width: 100%;
+    height: 100%; /* Ensures it fits the header height */
+    object-fit: cover; /* Keeps the aspect ratio while covering the header */
+  }
+
+ 
+
+
+/* Main Content */
+main {
+   
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    max-width: 100%;
+    height: auto;
+    
+}

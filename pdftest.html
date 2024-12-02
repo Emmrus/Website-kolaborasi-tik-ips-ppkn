@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF as Background with Selectable Text</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #pdf-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+        #pdf-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 20px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="pdf-container">
+        <object data="kerja-sama.pdf" type="application/pdf" width="100%" height="100%"></object>
+    </div>
+    <div id="pdf-content">
+        <h1>Welcome</h1>
+        <p>This is a website with a PDF as the background and selectable text.</p>
+    </div>
+</body>
+</html>
